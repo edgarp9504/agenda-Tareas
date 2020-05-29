@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+
+.texto-conteiner{
+    overflow: hidden;
+}
+
+.texto{
+    float: left;
+    padding: 20px 150px 20px 300px;
+    text-align: center;
+    position: relative;
+
+} 
+
+@media screen and (max-width: 1024px){
+    .texto{
+    padding: 20px 100px 20px 250px;
+    }
+}
+@media screen and (max-width: 768px){
+    .texto{
+    padding: 20px 70px 20px 200px;
+    }
+}
+@media screen and (max-width: 425px){
+    .texto{
+    padding: 20px 10px 20px 100px
+    }
+}
+
+@media screen and (max-width: 375px){
+    .texto{
+        padding: 20px 10px 20px 100px
+    }
+}
+
+@media screen and (max-width: 320px){
+    .texto{
+        padding: 20px 90px 20px 140px;
+    }
+}
